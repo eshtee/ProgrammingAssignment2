@@ -27,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Usage: 
 ## matrix <- rbind(c(1, -1/4), c(-1/4, 1))
-## specialMatrix <- makeCacheMatrix(c)
+## specialMatrix <- makeCacheMatrix(matrix)
 ## cacheSolve(specialMatrix)
 
 cacheSolve <- function(x, ...) {
@@ -43,8 +43,4 @@ cacheSolve <- function(x, ...) {
   x_inv
 }
 
-## Usage: 
-matrix <- rbind(c(1, -1/4), c(-1/4, 1))
-specialMatrix <- makeCacheMatrix(matrix)
-cacheSolve(specialMatrix)
 
